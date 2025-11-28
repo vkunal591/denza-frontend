@@ -18,21 +18,21 @@ const slides: Slide[] = [
         title: "Car Design",
         description:
             "Slide into hand-stitched Italian leather seats, set beneath a panoramic electrochromic glass roof. Ambient lighting with 64 colors and precision-machined metal accents surround you.",
-        image: "/hero/slide1.png",
+        image: "/assets/images/cardfrontside.webp",
     },
     {
         id: 2,
         title: "Interior Luxury",
         description:
             "Experience unmatched refinement with handcrafted surfaces, ambient lighting and dynamic comfort.",
-        image: "/hero/slide2.png",
+        image: "/assets/images/carsideright.jpg",
     },
     {
         id: 3,
         title: "Performance",
         description:
             "Powered by dual motors delivering breathtaking acceleration with whisper-quiet smoothness.",
-        image: "/hero/slide3.png",
+        image: "/assets/images/carfrontrightside.jpg",
     },
 ];
 

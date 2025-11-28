@@ -1,14 +1,23 @@
+import Image from "next/image";
+
 const HeroImageSection = () => {
   return (
-    <section
-      className="
-        relative w-full h-[60vh] md:h-[80vh] lg:h-screen 
-        bg-cover bg-center bg-no-repeat
-        flex items-end md:items-end
-      "
-      style={{ backgroundImage: "url('/your-image.jpg')" }} // change image
-    >
-      {/* Overlay (optional) */}
+    <section className="relative w-full h-[60vh] md:h-[80vh] lg:h-screen flex items-end">
+      
+      {/* Background Image */}
+      <div className="absolute inset-0">
+        <Image
+          src="/assets/images/cardfrontside.webp"
+          alt="Hero Car Back"
+          fill
+          className="object-cover"
+          sizes="100vw"
+          loading="lazy"
+          priority={false} // lazy load
+        />
+      </div>
+
+      {/* Overlay */}
       <div className="absolute inset-0 bg-black/30"></div>
 
       {/* Title */}

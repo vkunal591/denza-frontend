@@ -21,18 +21,18 @@ const slides = [
     title: "Dual 15.6” OLED Touchscreens",
     description:
       "One screen dedicated to driving info and media, the other to climate, seat settings, and gesture controls.",
-    image: "/features/roof-1.jpg",
+    image: "/assets/images/cardfrontside.webp",
   },
   {
     title: "Immersive Ambient Lighting",
     description: "64-color ambient lighting system with dynamic scenes.",
-    image: "/features/roof-2.jpg",
+    image: "/assets/images/carfrontrightside.jpg",
   },
   {
     title: "Precision Glass Roof",
     description:
       "Panoramic electrochromic roof controlling light and heat intelligently.",
-    image: "/features/roof-3.jpg",
+    image: "/assets/images/carsideright.jpg",
   },
 ];
 

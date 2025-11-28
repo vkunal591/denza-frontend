@@ -47,7 +47,7 @@ export default function CarSpecsSection() {
           <div className="w-full flex justify-center">
             <div className="relative w-full max-w-xl">
               <Image
-                src="/cars/z9gt-silver.png"
+                src="/assets/images/cardfrontside.webp"
                 alt="Denza Car"
                 width={900}
                 height={600}

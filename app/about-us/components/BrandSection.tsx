@@ -19,17 +19,17 @@ export default function BrandSection() {
       As a pioneer in the definition of new luxury technology, Tengshi Automobile has fully integrated its leading new intelligent super hybrid technology and products. It has released a globally distinctive vehicle technology — the "Tengshi Vehicle Intelligent Strategy". Its product matrix now covers the models of D9, N7, Z9GT/Z9 Pro. With products in all categories and a competitive global strategy, the Tengshi Series is equipped with highly intelligent driving assistance systems, creating new luxury and optimal travel while serving the shift of users. The system paying the global market with the version of green life.
       
       In the era of new energy, users need more than just a car. Tengshi Automobile stays true to the voice of users, actively creating a luxury and warming brand, and bringing the desirable new luxury travel experience and sustainable high-end smart life to families around the world.`,
-      image: "/brand/logo.jpg",
+      image: "/assets/images/carside.jpg",
     },
     {
       title: "Brand Logo",
-      text: "The Tengshi brand logo represents advanced technology and forward-thinking luxury aesthetics...",
-      image: "/brand/logo-2.jpg",
+      text: `The Tengshi brand logo represents advanced technology and forward-thinking luxury aesthetics...  In 2016, it integrates technology luxury and traditional luxury, and is designed for the world.  In 2022, it officially became a wholly- owned brand of BYD and entered a new chapter in the technology leadership of the Tengshi Hybrid. We believe that in the era of new energy, technology will always be the soul of luxury brands.  As a pioneer in the definition of new luxury technology, Tengshi Automobile has fully integrated its leading new intelligent super hybrid technology and products.It has released a globally distinctive vehicle technology — the "Tengshi Vehicle Intelligent Strategy".Its product matrix now covers the models of D9, N7, Z9GT / Z9 Pro.With products in all categories and a competitive global strategy, the Tengshi Series is equipped with highly intelligent driving assistance systems, creating new luxury and optimal travel while serving the shift of users.The system paying the global market with the version of green life.`,
+      image: "/assets/images/carsideright.jpg",
     },
     {
       title: "Brand History",
-      text: "Since 2010, Tengshi has evolved...",
-      image: "/brand/history.jpg",
+      text: `The Tengshi brand logo represents advanced technology and forward-thinking luxury aesthetics...  In 2016, it integrates technology luxury and traditional luxury, and is designed for the world.  In 2022, it officially became a wholly- owned brand of BYD and entered a new chapter in the technology leadership of the Tengshi Hybrid. We believe that in the era of new energy, technology will always be the soul of luxury brands.  As a pioneer in the definition of new luxury technology, Tengshi Automobile has fully integrated its leading new intelligent super hybrid technology and products.It has released a globally distinctive vehicle technology — the "Tengshi Vehicle Intelligent Strategy".Its product matrix now covers the models of D9, N7, Z9GT / Z9 Pro.With products in all categories and a competitive global strategy, the Tengshi Series is equipped with highly intelligent driving assistance systems, creating new luxury and optimal travel while serving the shift of users.The system paying the global market with the version of green life.`,
+      image: "/assets/images/carfrontrightside.jpg",
     },
   ];
 
@@ -67,12 +67,14 @@ export default function BrandSection() {
           </div>
 
           {/* RIGHT IMAGE */}
-          <div className="relative w-full h-[330px] md:h-[400px] rounded-xl overflow-hidden shadow-md">
+          <div className="relative w-full h-full rounded-xl overflow-hidden shadow-md">
             <Image
               src={current.image}
               alt={current.title}
               fill
               className="object-cover"
+              priority // Optionally use priority for above-the-fold images
+              sizes="(max-width: 768px) 100vw, 50vw" // For better responsive optimization
             />
           </div>
 

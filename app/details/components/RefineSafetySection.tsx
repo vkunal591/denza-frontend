@@ -45,7 +45,7 @@ export default function RefineSafetySection() {
           <div className="w-full flex justify-center">
             <div className="relative w-full max-w-md h-64">
               <Image
-                src="/cars/top-view.png"
+                src="/assets/images/cardfrontside.webp"
                 alt="Car Top View"
                 fill
                 className="object-contain"

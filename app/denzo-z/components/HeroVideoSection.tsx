@@ -39,14 +39,14 @@ const HeroVideoSection = () => {
         muted={muted}
         playsInline
       >
-        <source src="/videos/denza-bg.mp4" type="video/mp4" /> 
+        <source src="/assets/videos/DENZA JINGLE HD.mp4" type="video/mp4" /> 
       </video>
 
       {/* DARK OVERLAY */}
       <div className="absolute inset-0 bg-black/40"></div>
 
       {/* CONTENT CENTER */}
-      <div className="relative z-10 h-full flex flex-col justify-center items-center text-center px-4">
+      <div className="relative z-10 mt-auto h-full flex flex-col justify-end items-center p-4 text-center px-4">
         <p className="text-sm mb-2 opacity-80">New</p>
 
         <h1 className="text-5xl md:text-7xl font-extrabold tracking-wide">
@@ -60,7 +60,7 @@ const HeroVideoSection = () => {
         {/* BUTTONS */}
         <div className="mt-8 flex gap-4 flex-wrap justify-center">
           <button className="
-            px-8 py-3 rounded-full border border-white text-white 
+            px-8 py-3 rounded-lg border border-white text-white 
             hover:bg-white hover:text-black 
             transition duration-300 ease-in-out active:scale-95
           ">
@@ -68,7 +68,7 @@ const HeroVideoSection = () => {
           </button>
 
           <button className="
-            px-8 py-3 rounded-full bg-white text-black 
+            px-8 py-3 rounded-lg bg-white text-black 
             hover:bg-gray-200 
             transition duration-300 ease-in-out active:scale-95
           ">

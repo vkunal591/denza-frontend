@@ -1,7 +1,7 @@
 import React from 'react'
 import HeroVideoSection from '../denzo-z/components/HeroVideoSection'
 import BrandSection from './components/BrandSection'
-import BrandMomentumSection from './BrandMomentumSection'
+import BrandMomentumSection from './components/BrandMomentumSection'
 
 const page = () => {
     return (

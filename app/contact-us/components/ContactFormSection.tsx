@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useState } from "react";
 import { useForm } from "react-hook-form";
 
@@ -39,7 +40,7 @@ export default function ContactFormSection() {
 
   return (
     <section className="relative w-full min-h-screen bg-black overflow-hidden">
-      
+
       {/* BACKGROUND VIDEO */}
       <video
         className="absolute inset-0 w-full h-full object-cover opacity-90"
@@ -48,23 +49,34 @@ export default function ContactFormSection() {
         muted
         playsInline
       >
-        <source src="/videos/denza-bg.mp4" type="video/mp4" />
+        <source src="/assets/videos/DENZA JINGLE HD.mp4" type="video/mp4" />
       </video>
 
+      {/* Background Image
+      <Image
+        src="/assets/images/carside.jpg"
+        alt="hero image"
+        fill
+        priority={false}
+        className="object-cover scale-x-[-1 scale-175"
+        placeholder="empty"
+        sizes="100vw"
+      /> */}
+
       {/* OVERLAY */}
-      <div className="absolute inset-0 bg-black/40 backdrop-blur-sm"></div>
+      <div className="absolute inset-0 bg-black/40 backdrop-blur-s"></div>
 
       {/* FORM WRAPPER */}
       <div className="relative z-20 max-w-5xl mx-auto px-6 py-20">
-        
-        <div className="w-full rounded-3xl bg-white/10 backdrop-blur-xl border border-white/20 shadow-2xl p-8 md:p-12 text-white">
+
+        <div className="w-full rounded-3xl bg-white/10 backdrop-blur-xs border border-white/20 shadow-2xl p-8 md:p-12 text-white">
 
           <h1 className="text-3xl md:text-4xl font-semibold mb-8">
             Contact us for more information
           </h1>
 
           <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
-            
+
             {/* NAME */}
             <div className="grid md:grid-cols-2 gap-6">
               <div>

@@ -5,10 +5,30 @@ import { FiInstagram } from "react-icons/fi";
 
 const OurCommunitySection = () => {
   const items = [
-    { id: 1, title: "Denza D9", desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.", img: "/community/img1.jpg" },
-    { id: 2, title: "Denza D9", desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.", img: "/community/img1.jpg" },
-    { id: 3, title: "Denza D9", desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.", img: "/community/img1.jpg" },
-    { id: 4, title: "Denza D9", desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.", img: "/community/img1.jpg" },
+    {
+      id: 1,
+      title: "Denza D9",
+      desc: "High-performance electric sedan with luxury interior.",
+      img: "/assets/images/cardfrontside.webp",
+    },
+    {
+      id: 2,
+      title: "Denza D9 Sport",
+      desc: "Premium SUV with advanced features and comfort.",
+      img: "/assets/images/carsideright.jpg",
+    },
+    {
+      id: 3,
+      title: "Denza D9 Eco",
+      desc: "Efficient, eco-friendly, and futuristic design.",
+      img: "/assets/images/carsideright.jpg",
+    },
+    {
+      id: 4,
+      title: "Denza D9 Urban",
+      desc: "Compact electric car designed for city lifestyle.",
+      img: "/assets/images/cardfrontside.webp",
+    },
   ];
 
   return (
@@ -16,7 +36,9 @@ const OurCommunitySection = () => {
       {/* Heading */}
       <div className="max-w-7xl mx-auto px-6 text-left mb-10">
         <h2 className="text-3xl md:text-4xl font-bold text-black">Our Community</h2>
-        <p className="text-gray-600 mt-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p className="text-gray-600 mt-1">
+          See what our passionate drivers are sharing about DENZA.
+        </p>
       </div>
 
       {/* Cards */}
@@ -47,6 +69,8 @@ const OurCommunitySection = () => {
                 alt={item.title}
                 fill
                 className="object-cover transition-transform duration-500 hover:scale-110"
+                sizes="(max-width: 768px) 75vw, (max-width: 1024px) 50vw, 25vw"
+                loading="lazy"
               />
             </div>
 

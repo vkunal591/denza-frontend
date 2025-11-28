@@ -20,16 +20,16 @@ interface WheelOption {
 const CarConfigurator = () => {
   // ---- EXTERIOR COLORS ----
   const colors: CarColorOption[] = [
-    { label: "White", value: "white", thumbnail: "/colors/white-thumb.png", image: "/colors/white.png" },
-    { label: "Blue", value: "blue", thumbnail: "/colors/blue-thumb.png", image: "/colors/blue.png" },
-    { label: "Grey", value: "grey", thumbnail: "/colors/grey-thumb.png", image: "/colors/grey.png" },
-    { label: "Black", value: "black", thumbnail: "/colors/black-thumb.png", image: "/colors/black.png" },
+    { label: "White", value: "white", thumbnail: "/assets/images/cardfrontside.webp", image: "/assets/images/cardfrontside.webp" },
+    { label: "Blue", value: "blue", thumbnail: "/assets/images/carfrontrightside.jpg", image: "/assets/images/carside.jpg" },
+    { label: "Grey", value: "grey", thumbnail: "/assets/images/carside.jpg", image: "/assets/images/carfrontrightside.jpg" },
+    { label: "Black", value: "black", thumbnail: "/assets/images/carsideright.jpg", image: "/assets/images/carsideright.jpg" },
   ];
 
   // ---- WHEELS ----
   const wheels: WheelOption[] = [
-    { label: "Wheel A", value: "wheelA", thumbnail: "/wheels/wheelA-thumb.png", image: "/wheels/wheelA.png" },
-    { label: "Wheel B", value: "wheelB", thumbnail: "/wheels/wheelB-thumb.png", image: "/wheels/wheelB.png" },
+    { label: "Wheel A", value: "wheelA", thumbnail: "/assets/images/cardfrontside.webp", image: "/assets/images/cardfrontside.webp" },
+    { label: "Wheel B", value: "wheelB", thumbnail: "/assets/images/cardfrontside.webp", image: "/assets/images/cardfrontside.webp" },
   ];
 
   const [selectedColor, setSelectedColor] = useState(colors[0]);

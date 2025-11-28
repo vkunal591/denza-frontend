@@ -16,28 +16,28 @@ const slides = [
     title: "Light",
     description:
       "One screen dedicated to driving info and media, the other for climate, seat settings, and gesture controls.",
-    image: "/feature/slide1.jpg",
+    image: "/assets/images/cardfrontside.webp",
   },
   {
     id: 2,
     title: "Exterior Finish",
     description:
       "A refined body structure with advanced LED matrix lighting and precise aerodynamic lines.",
-    image: "/feature/slide2.jpg",
+    image: "/assets/images/carside.jpg",
   },
   {
     id: 3,
     title: "Control Panel",
     description:
       "Smart control central interface with intuitive UI, fast interaction, and smooth response.",
-    image: "/feature/slide3.jpg",
+    image: "/assets/images/carfrontrightside.jpg",
   },
   {
     id: 4,
     title: "Seat Comfort",
     description:
       "Premium seating experience optimized for long drives with superior ergonomic support.",
-    image: "/feature/slide4.jpg",
+    image: "/assets/images/carsideright.jpg",
   },
 ];
 

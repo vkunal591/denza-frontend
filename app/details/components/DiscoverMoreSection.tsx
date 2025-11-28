@@ -8,17 +8,17 @@ export default function DiscoverMoreSection() {
     {
       title: "Full Specification",
       subtitle: "Download Brochure",
-      image: "/discover/spec.jpg",
+      image: "/assets/images/cardfrontside.webp",
     },
     {
       title: "Test Drive",
       subtitle: "Lorem ipsum dolor sit amet",
-      image: "/discover/testdrive.jpg",
+      image: "/assets/images/carside.jpg",
     },
     {
       title: "Car Configurator",
       subtitle: "Lorem ipsum dolor sit amet",
-      image: "/discover/configurator.jpg",
+      image: "/assets/images/carfrontrightside.jpg",
     },
   ];
 

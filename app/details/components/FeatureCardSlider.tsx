@@ -8,27 +8,27 @@ const features = [
   {
     title: "Super dmi",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet.",
-    image: "/features/tech-1.png",
+    image: "/assets/images/cardfrontside.webp",
   },
   {
     title: "Super dmi",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet.",
-    image: "/features/tech-2.png",
+    image: "/assets/images/carfrontrightside.jpg",
   },
   {
     title: "E-platform 3.0",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet.",
-    image: "/features/tech-3.png",
+    image: "/assets/images/carside.jpg",
   },
   {
     title: "8-in-1",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet.",
-    image: "/features/tech-4.png",
+    image: "/assets/images/carsideright.jpg",
   },
   {
     title: "Next Gen Motor",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet.",
-    image: "/features/tech-5.png",
+    image: "/assets/images/cardfrontside.webp",
   },
 ];
 
