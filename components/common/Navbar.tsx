@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 import { useState } from "react";
 import { FiUser, FiMapPin, FiMenu, FiX } from "react-icons/fi";
 
@@ -12,20 +13,31 @@ const Navbar = () => {
 
                 {/* Left - Logo */}
                 <div className="flex items-center gap-2">
-                    <Image
-                        src="/assets/logo/logo.png" // change to your logo
-                        width={500}
-                        height={500}
-                        alt="logo"
-                        className="h-14 w-14"
-                    />
+                    <Link href="/">
+                        <Image
+                            src="/assets/logo/logo.png" // change to your logo
+                            width={500}
+                            height={500}
+                            alt="logo"
+                            className="h-14 w-14"
+                        />
+                    </Link>
                 </div>
 
                 {/* Desktop Menu */}
                 <ul className="hidden md:flex gap-10 text-sm font-medium">
-                    <li className="cursor-pointer hover:text-gray-300">Denza Z9GT</li>
-                    <li className="cursor-pointer hover:text-gray-300">Leopard 5</li>
-                    <li className="cursor-pointer hover:text-gray-300">About Denza</li>
+                    <Link href="/denzo-z">
+                        <li className="cursor-pointer hover:text-gray-300">Denza Z9GT</li>
+                    </Link>
+                    <Link href="/details">
+                        <li className="cursor-pointer hover:text-gray-300">Leopard Details</li>
+                    </Link>
+                    <Link href="/about-us">
+                        <li className="cursor-pointer hover:text-gray-300">About Denza</li>
+                    </Link>
+                    <Link href="/contact-us">
+                        <li className="cursor-pointer hover:text-gray-300">Contact Us</li>
+                    </Link>
                 </ul>
 
                 {/* Right Section */}

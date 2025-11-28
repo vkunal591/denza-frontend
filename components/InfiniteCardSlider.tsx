@@ -36,7 +36,7 @@ const InfiniteCardSlider = () => {
       id: 5,
       image: "/assets/images/carside.jpg",
       title: "Urban Drive 2",
-      desc: "Compact electric car designed for city lifestyle. Sleek and efficient.",
+      desc: "Compact electric car designed for city lifestyle. Smart, Stylish, Sleek and efficient .",
     },
     {
       id: 6,
@@ -85,9 +85,9 @@ const InfiniteCardSlider = () => {
         >
           {cards.map((card) => (
             <SwiperSlide key={card.id}>
-              <div className="bg-white overflow-hidden transition duration-300 ease-in-out rounded-lg shadow-sm hover:shadow-xl">
+              <div className="bg-white overflow-hidden transition duration-300 ease-in-out rounded-lg ">
                 {/* Image */}
-                <div className="h-48 md:h-56 w-full mb-2 border border-gray-200 rounded-lg overflow-hidden relative">
+                <div className="h-48 md:h-56 w-full mb-2 shadow-sm hover:shadow-xl border border-gray-200 rounded-lg overflow-hidden relative hover:-translate-y-1 transition duration-300 ease-in-out">
                   <Image
                     src={card.image}
                     alt={card.title}
