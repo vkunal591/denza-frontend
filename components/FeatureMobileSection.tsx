@@ -6,7 +6,7 @@ const FeatureMobileSection = () => {
   const cards = [
     {
       id: 1,
-      image: "/assets/images/carfront.jpg",
+      image: "/assets/images/cardfrontside.webp",
       title: "Denza Z9GT",
       desc: "High-performance electric sedan with luxury interior.",
       button: true,
@@ -19,13 +19,13 @@ const FeatureMobileSection = () => {
     },
     {
       id: 3,
-      image: "/assets/images/carback.jpg",
+      image: "/assets/images/carfrontrightside.jpg",
       title: "Electric Pro",
       desc: "Efficient, eco-friendly, and futuristic design.",
     },
     {
       id: 4,
-      image: "/assets/images/carfront.jpg",
+      image: "/assets/images/cardfrontside.webp",
       title: "Urban Drive",
       desc: "Compact electric car designed for a modern lifestyle.",
       button: true,

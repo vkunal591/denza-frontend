@@ -21,10 +21,10 @@ export default function Footer() {
           {/* LOGO */}
           <div className="col-span-1 flex items-start">
             <Image
-              src="/logo/denza.png"
+              src="/assets/logo/logo.png"
               alt="Denza Logo"
               width={120}
-              height={40}
+              height={50}
               className="object-contain"
             />
           </div>
