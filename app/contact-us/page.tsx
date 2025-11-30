@@ -1,10 +1,9 @@
-import React from 'react'
-import ContactFormSection from './components/ContactFormSection'
+import DenzaContactSection from '@/components/home/DenzaContactSection'
 
 export default function page() {
   return (
     <div>
-        <ContactFormSection />
+      <DenzaContactSection />
     </div>
   )
 }

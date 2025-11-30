@@ -1,26 +1,24 @@
-import FeatureMobileSection from "@/components/FeatureMobileSection";
-import FooterDisclaimerSection from "@/components/FooterDisclaimerSection";
-import HeroImageSection from "@/components/HeroImageSection";
-import HeroSection from "@/components/HeroSection";
-import InfiniteCardSlider from "@/components/InfiniteCardSlider";
-import NewsletterSection from "@/components/NewsletterSection";
-import OurCommunitySection from "@/components/OurCommunitySection";
-import SlideSection from "@/components/SlideSection";
-import TwoColumnCTASection from "@/components/TwoColumnCTASection";
-import Image from "next/image";
+import DenzaFooter from "@/components/common/DenzaFooter";
+import ChooseYourDenza from "@/components/home/ChooseYourDenza";
+import ContactSection from "@/components/home/ContactSection";
+import DenzaContactSection from "@/components/home/DenzaContactSection";
+import DenzaOwnership from "@/components/home/DenzaOwnership";
+import DenzaSlider from "@/components/home/DenzaSlider";
+import DenzaVideoSlider from "@/components/home/DenzaVideoSlider";
+import DMOSection from "@/components/home/DMOSection";
+import FutureDriving from "@/components/home/FutureDriving";
+
 
 export default function Home() {
   return (
     <div>
-      <HeroSection />
-      <SlideSection />
-      <HeroImageSection />
-      <FeatureMobileSection />
-      <TwoColumnCTASection />
-      <InfiniteCardSlider />
-      <NewsletterSection />
-      <OurCommunitySection />
-      <FooterDisclaimerSection />
+      <DenzaSlider />
+      <DenzaVideoSlider />
+      <ChooseYourDenza />
+      <FutureDriving />
+      <DMOSection />
+      <DenzaOwnership />
+      <ContactSection />
     </div>
   );
 }
