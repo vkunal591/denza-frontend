@@ -23,7 +23,7 @@ export default function Header() {
 
           {/* CENTER LOGO */}
           <div className=" mx-auto w-full">
-            <Link href="#">
+            <Link href="/"  onClick={() => setOpen(false)}>
               <Image
                 src="https://denzaqatar.com/wp-content/uploads/2025/10/Denza-Logo-bright-blue-2.png"
                 width={90}
@@ -83,10 +83,10 @@ export default function Header() {
                   <p className="text-gray-700 mt-2">High-performance hybrid SUV's now in Qatar</p>
 
                   <div className="flex flex-col gap-4 mt-6">
-                    <Link href="/contact-us" className="text-[#032A45] font-medium">CONTACT US ›</ Link>
-                    <Link href="/inquire-us" className="text-[#032A45] font-medium">INQUIRE TO BUY ›</ Link>
-                    <Link href="/ownership" className="text-[#032A45] font-medium">DENZA OWNERSHIP ›</ Link>
-                    <Link href="/downloads" className="text-[#032A45] font-medium">DOWNLOAD BROCHURE ›</ Link>
+                    <Link href="/contact-us"  onClick={() => setOpen(!open)} className="text-[#032A45] font-medium">CONTACT US ›</ Link>
+                    <Link href="/inquire-us"  onClick={() => setOpen(!open)} className="text-[#032A45] font-medium">INQUIRE TO BUY ›</ Link>
+                    <Link href="/ownership"  onClick={() => setOpen(!open)} className="text-[#032A45] font-medium">DENZA OWNERSHIP ›</ Link>
+                    <Link href="/downloads"  onClick={() => setOpen(!open)} className="text-[#032A45] font-medium">DOWNLOAD BROCHURE ›</ Link>
                   </div>
                 </div>
 
@@ -102,9 +102,9 @@ export default function Header() {
                       className="rounded-xl"
                     />
                     <p className="font-semibold mt-3 text-[#032A45]">DENZA B5</p>
-                    <a href="#" className="text-[#032A45] inline-flex items-center gap-1">
+                    <Link href="/denza-b5"  onClick={() => setOpen(!open)} className="text-[#032A45] inline-flex items-center gap-1">
                       Explore DENZA B5 <IoIosArrowForward />
-                    </a>
+                    </Link>
                   </div>
 
                   {/* B8 */}
@@ -117,9 +117,9 @@ export default function Header() {
                       className="rounded-xl"
                     />
                     <p className="font-semibold mt-3 text-[#032A45]">DENZA B8</p>
-                    <a href="#" className="text-[#032A45] inline-flex items-center gap-1">
+                    <Link href="/denza-b8"  onClick={() => setOpen(!open)} className="text-[#032A45] inline-flex items-center gap-1">
                       Explore DENZA B8 <IoIosArrowForward />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -131,10 +131,10 @@ export default function Header() {
                 <p className="text-gray-600 mt-2">High-performance hybrid SUVs now in Qatar</p>
 
                 <div className="flex flex-col gap-3 mt-6 text-[#032A45] font-medium">
-                  <Link href="/contact-us" className="text-[#032A45] font-medium">CONTACT US ›</ Link>
-                  <Link href="/inquire-us" className="text-[#032A45] font-medium">INQUIRE TO BUY ›</ Link>
-                  <Link href="/ownership" className="text-[#032A45] font-medium">DENZA OWNERSHIP ›</ Link>
-                  <Link href="/downloads" className="text-[#032A45] font-medium">DOWNLOAD BROCHURE ›</ Link>
+                  <Link href="/contact-us"  onClick={() => setOpen(!open)} className="text-[#032A45] font-medium">CONTACT US ›</ Link>
+                  <Link href="/inquire-us"  onClick={() => setOpen(!open)} className="text-[#032A45] font-medium">INQUIRE TO BUY ›</ Link>
+                  <Link href="/ownership"  onClick={() => setOpen(!open)} className="text-[#032A45] font-medium">DENZA OWNERSHIP ›</ Link>
+                  <Link href="/downloads"  onClick={() => setOpen(!open)} className="text-[#032A45] font-medium">DOWNLOAD BROCHURE ›</ Link>
 
                 </div>
 
@@ -149,9 +149,9 @@ export default function Header() {
                       className="rounded-xl"
                     />
                     <p className="font-semibold mt-3">DENZA B5</p>
-                    <a href="#" className="inline-flex items-center gap-1 text-[#032A45] font-medium">
+                    <Link href="/denza-b5"  onClick={() => setOpen(!open)} className="inline-flex items-center gap-1 text-[#032A45] font-medium">
                       Explore DENZA B5 <IoIosArrowForward />
-                    </a>
+                    </Link>
                   </div>
 
                   {/* B8 */}
@@ -164,9 +164,9 @@ export default function Header() {
                       className="rounded-xl"
                     />
                     <p className="font-semibold mt-3">DENZA B8</p>
-                    <a href="#" className="inline-flex items-center gap-1 text-[#032A45] font-medium">
+                    <Link href="/denza-b8"  onClick={() => setOpen(!open)} className="inline-flex items-center gap-1 text-[#032A45] font-medium">
                       Explore DENZA B8 <IoIosArrowForward />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

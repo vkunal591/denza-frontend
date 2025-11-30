@@ -50,7 +50,7 @@ export default function ChooseYourDenza() {
   };
 
   return (
-    <section className="py-12 bg-[#f5f7fa]">
+    <section className="py-20  bg-[#f5f7fa] ">
       <div className="max-w-7xl mx-auto px-4 text-center mb-12">
         <h3 className="text-4xl font-bold mb-3">Choose your Denza</h3>
         <p className="text-lg text-gray-700 max-w-2xl mx-auto">

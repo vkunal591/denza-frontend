@@ -33,7 +33,7 @@ export default function CenteredVideoSlider() {
       setPlayingVideos((prev: any) => ({ ...prev, [id]: true }));
     } else {
       videoRef.current.pause();
-      setPlayingVideos((prev: any) => ({ ...prev, [id]: false }));
+      setPlayingVideos((prev: any  ) => ({ ...prev, [id]: false }));
     }
   };
 

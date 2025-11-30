@@ -6,7 +6,7 @@ export default function DenzaInquiryForm() {
   const [agree, setAgree] = useState(false);
 
   return (
-    <section className="relative w-full min-h-screen">
+    <section className="relative py-20 w-full min-h-screen">
       
       {/* BACKGROUND IMAGE */}
       <div className="absolute inset-0">

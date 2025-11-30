@@ -34,9 +34,9 @@ export default function DenzaFooter() {
           <span className="inline-block ml-2 align-middle">
             {/* Replace with your actual logo */}
             <img 
-              src="/assets/images/mannai-signature.png" 
+              src="/assets/logo/logo.png" 
               alt="Developer Logo" 
-              className="h-5 opacity-90"
+              className="h-5 opacity-90 drop-shadow-xs  drop-shadow-white"
             />
           </span>
         </div>
