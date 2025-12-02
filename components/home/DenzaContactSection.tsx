@@ -27,7 +27,7 @@ export default function DenzaContactSection() {
     location: [
       "Street 26, Industrial Area",
       "Building 104, Zone 57, Doha",
-      "bahrain",
+      "Bahrain",
     ],
     email: "service@mannai.com.qa",
     phone: "8001808",
@@ -47,7 +47,7 @@ export default function DenzaContactSection() {
       <div className="relative w-full lg:w-1/2 h-[40vh] lg:h-auto">
         <Image
           src="/assets/images/cardfrontside.webp"
-          alt="Denza bahrain"
+          alt="Denza Bahrain"
           fill
           className="object-cover"
           priority
@@ -62,7 +62,7 @@ export default function DenzaContactSection() {
           Back
         </button>
 
-        <h2 className="text-4xl lg:text-5xl font-semibold mb-10">Denza bahrain</h2>
+        <h2 className="text-4xl lg:text-5xl font-semibold mb-10">Denza Bahrain</h2>
 
         {/* Tabs */}
         <div className="flex border-b border-white/20 gap-8 mb-6">

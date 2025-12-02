@@ -21,7 +21,7 @@ export default function DenzaFooter() {
 
         {/* Footer Links */}
         <div className="flex flex-wrap justify-center gap-6 text-sm text-gray-200 mb-6">
-          <span>Denza bahrain © 2025 All Rights Reserved</span>
+          <span>Denza Bahrain © 2025 All Rights Reserved</span>
           <a href="#" className="hover:underline">Mannai Group</a>
           <a href="#" className="hover:underline">Denza Global</a>
           <a href="#" className="hover:underline">Privacy Policy</a>
