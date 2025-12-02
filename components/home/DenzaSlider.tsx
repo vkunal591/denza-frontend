@@ -31,7 +31,7 @@ export default function DenzaFullSlider() {
                             The Wait is Over<br />Denza B5 has arrived!
                         </h3>
                         <p className="text-lg md:text-xl mb-6">
-                            The all-new Denza B5 makes its debut in Qatar-<br />where technology and elegance move as one
+                            The all-new Denza B5 makes its debut in bahrain-<br />where technology and elegance move as one
                         </p>
                         {/* Buttons */}
                         <div className="mt-8 flex flex-col md:flex-row gap-4 md:gap-6">
@@ -122,7 +122,7 @@ export default function DenzaFullSlider() {
                         style={{ backgroundImage: "url('/assets/images/carside.jpg')" }}
                     >
                         <h3 className="text-4xl md:text-5xl font-bold mb-4">
-                            The Denza B8 Arrives in Qatar
+                            The Denza B8 Arrives in bahrain
                         </h3>
                         <p className="text-lg md:text-xl mb-6">
                             Bold performance, advanced technology, and timeless design come<br />together in this new era of mobility

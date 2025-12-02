@@ -13,7 +13,7 @@ export default function Header() {
 
   return (
     <header className="w-full fixed flex justify-center z-50">
-      <div className="w-[90%] bg-gradient-to- bg-[#ffffff9f] to-[#d6f1f6a4 rounded-b-3xl backdrop-blur-sm shadow-lg">
+      <div className="w-full md:w-[90%] bg-gradient-to- bg-[#ffffff9f] to-[#d6f1f6a4 rounded-b-3xl backdrop-blur-sm shadow-lg">
 
         {/* TOP NAV */}
         <div className="flex items-center justify-between px-4  py-2 relative">
