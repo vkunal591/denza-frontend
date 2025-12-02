@@ -80,7 +80,7 @@ export default function Header() {
                 <div>
                   <p className="text-sm tracking-widest text-[#032A45]">THE NEW</p>
                   <p className="text-4xl font-bold mt-1 text-[#032A45]">Denza B5 & B8</p>
-                  <p className="text-gray-700 mt-2">High-performance hybrid SUV's now in Qatar</p>
+                  <p className="text-gray-700 mt-2">High-performance hybrid SUV's now in Bahrain</p>
 
                   <div className="flex flex-col gap-4 mt-6">
                     <Link href="/contact-us"  onClick={() => setOpen(!open)} className="text-[#032A45] font-medium">CONTACT US ›</ Link>
@@ -125,10 +125,10 @@ export default function Header() {
               </div>
 
               {/* MOBILE */}
-              <div className="md:hidden px-6 pb-10 pt-4">
+              <div className="md:hidden overflow-y-auto h-[90vh] px-6 pb-10 pt-4">
                 <p className="text-sm tracking-widest text-[#032A45]">THE NEW</p>
                 <p className="text-3xl font-bold mt-1 text-[#032A45]">Denza B5 & B8</p>
-                <p className="text-gray-600 mt-2">High-performance hybrid SUVs now in Qatar</p>
+                <p className="text-gray-600 mt-2">High-performance hybrid SUVs now in Bahrain</p>
 
                 <div className="flex flex-col gap-3 mt-6 text-[#032A45] font-medium">
                   <Link href="/contact-us"  onClick={() => setOpen(!open)} className="text-[#032A45] font-medium">CONTACT US ›</ Link>
